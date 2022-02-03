@@ -1,6 +1,10 @@
-const userSecondName = prompt("Inserisci il tuo cognome, Di Martino")
+const userSecondName = prompt("Inserisci il tuo nome")
 console.log(userSecondName);
 
-//let userSecondName = prompt("Inserisci il tuo nome, Edoardo")
+const userFirstName = prompt("Inserisci il tuo cognome")
+console.log(userFirstName);
 
-//content.innerHTML = userSecondName
+const salutoHTMLElement = document.getElementById("saluto")
+
+salutoHTMLElement.innerHTML += userSecondName + ' ' + userFirstName
+
