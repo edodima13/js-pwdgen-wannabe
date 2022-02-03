@@ -1,26 +1,18 @@
 //domande-utente
 
 const userSecondName = prompt("Inserisci il tuo nome")
-console.log(userSecondName);
+//console.log(userSecondName);
 
 const userFirstName = prompt("Inserisci il tuo cognome")
-console.log(userFirstName);
+//console.log(userFirstName);
 
 const userFavoriteColor = prompt("Dimmi il tuo colore preferito")
-console.log(userFavoriteColor);
-
-const salutoHTMLElement = document.getElementById("saluto")
-
-salutoHTMLElement.innerHTML += userSecondName + userFirstName + userFavoriteColor
-
-//password-utente
-
-const SecondName = Nome
-console.log(passwordNumber);
+//console.log(userFavoriteColor);
 
 const passwordNumber = 21
-console.log(passwordNumber);
+//console.log(passwordNumber);
 
-const passwordHTMLElement = document.getElementById("password")
+const salutoHTMLElement = document.getElementById("password")
 
-passwordHTMLElement.innerHTML += SecondName + FirstName + FavoriteColor + passwordNumber
+//concatenazione elementi
+salutoHTMLElement.innerHTML += userSecondName + userFirstName + userFavoriteColor + passwordNumber
